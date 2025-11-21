@@ -7,7 +7,7 @@ function App() {
 				"https://codementor-backend-394002869559.asia-south1.run.app/api/v1/repos/download",
 				{
 					owner: "DurgeshChouksey",
-					repo: "ApiVerseBackend",
+					repo: "cloud-run",
 					branch: "main",
 				},
 				{
