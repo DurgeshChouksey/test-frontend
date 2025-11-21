@@ -4,7 +4,7 @@ function App() {
 	const downloadRepo = async () => {
 		try {
 			const res = await axios.post(
-				"http://localhost:3000/api/v1/repos/download",
+				"https://codementor-backend-394002869559.asia-south1.run.app/api/v1/repos/download",
 				{
 					owner: "DurgeshChouksey",
 					repo: "ApiVerseBackend",
